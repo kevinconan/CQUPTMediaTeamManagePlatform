@@ -6,4 +6,7 @@ public class UserBean {
 	public String test3;
 	public String test4;
 	public String test5;
+	public String test6;
+	
+	public String test7;
 }
