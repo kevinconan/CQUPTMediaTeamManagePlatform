@@ -21,7 +21,7 @@ public class UserBeanOp {
 	public boolean checkUser(String u, String p) {
 		boolean b = false;
 		ConnDB cdb = new ConnDB();
-		String sql = "select USER_PASSWORD from team where USER_ID='" + u + "'";
+		String sql = "select USER_PASSWORD from user where USER_ID='" + u + "'";
 		String pwdb = null;
 		cdb.connect();
 		cdb.setSqlStatement(sql);
