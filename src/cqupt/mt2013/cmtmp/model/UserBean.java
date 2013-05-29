@@ -5,7 +5,7 @@ import javax.management.loading.PrivateClassLoader;
 /**
  * 
  * @author 廖渝瀚
- * @version 1.1
+ * @version 1.0
  * 用户javaBean
  */
 public class UserBean {
