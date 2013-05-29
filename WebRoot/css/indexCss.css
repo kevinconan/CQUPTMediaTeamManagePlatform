@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#CCC}
+#container{
+	background:#999;
+	width:80%;
+	margin:auto;}
+#header{
+	padding-top:20px;
+	background-color:#F0F;
+	height:111px;
+	}
+#menu{
+	background-color:#909;
+	height:30px;
+	
+	}
+#pagebody{
+	background-color:#996;
+	margin:auto;
+	width:80%;
+	height:600px;
+	}
+#footer{
+	background-color:#C30;
+	margin:auto;
+	width:80%;
+	height:70px;}	
+#menu ul{
+	list-style:none;
+	margin:0px;
+}
+#menu ul li{
+	float:left;
+	display:block;
+	line-height:30px;
+	margin:0 60px
+	}
+#menu ul li a:link,#menu ul li a:visited{
+	font-weight:bold;
+	color:black;
+	text-decoration:none;
+	
+	}
+.menuDiv{}
+#header h1{
+	text-align:center;}
+#picture{
+	height:60%;
+	width:50%;
+	background-color:#06F;
+	float:left;
+	}
+#news{
+	background-color:#0F0;
+	width:50%;
+	height:60%;
+	float:left;
+	
+	}
+#loading{
+	float:none;
+	width:auto;
+	height:40%;
+	background-color:#F60;
+	clear:both;}
